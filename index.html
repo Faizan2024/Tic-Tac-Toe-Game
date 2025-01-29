@@ -8,11 +8,16 @@
 </head>
 <body>
     <h1>TIC TAC TOE</h1>
+    <div id="player-inputs">
+        <input type="text" id="player1" placeholder="Player 1 Name" autocomplete="off" required><br>
+        <input type="text" id="player2" placeholder="Player 2 Name" autocomplete="off" required><br>
+        <button id="submit-btn">Submit</button>
+    </div>
     <div class="hide win-msg">
         <p class="msg"></p>
         <button id="new-btn">New Game</button>
     </div>
-    <div class="container">
+    <div class="container hide">
         <div class="game">
             <button class="box"></button>
             <button class="box"></button>
@@ -25,7 +30,7 @@
             <button class="box"></button>
         </div>
     </div>
-    <button id="reset-btn">Reset Game</button>
+    <button id="reset-btn" class="hide">Reset Game</button>
     <script src="script.js"></script>
 </body>
 </html>

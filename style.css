@@ -78,3 +78,18 @@
         font-style: italic;
     }
 
+    #player-inputs {
+        transform: translateY(70%);
+        margin-bottom: 20px;
+    }
+    
+    #player-inputs input {
+        
+        text-align: center;
+        padding: 10px;
+        margin: 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px #134611;
+    }
